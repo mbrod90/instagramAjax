@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week 5 Assignment</title>
+
+	<style type="text/css">
+	  .highlight { color: blue;}
+    html { height: 100% }
+    body { height: 100%; margin: 0; padding: 0; text-align: center;}
+    #map-canvas { width:100%; height: 50%; }
+    .photo { float: left; margin: 2em;}
+	</style>
+</head>
+<body>
+  <div id="map-canvas"></div>
+	<div>
+		<form id="search">
+			<input name="q" type="text" class="search-field"/>
+			<button type="submit" id="quick_search_button">Quick Search</button>
+			<div class="results" id="quick_search_results">
+		</form>
+    <div id='photos'>
+    </div>
+	</div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBf5UxCSmOzc3H2H45vrqZn9wJQm1diUN8"></script>
+<script type="text/javascript" src="js/week5.js"></script>
+</body>
+</html>
